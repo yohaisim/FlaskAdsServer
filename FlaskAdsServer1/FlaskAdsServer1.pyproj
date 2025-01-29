@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8c5badce-b6ac-4b7b-9283-189f7b10eddb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FlaskAdsServer1.py</StartupFile>
+    <StartupFile>server.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FlaskAdsServer1.py" />
+    <Compile Include="server.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="static\" />
