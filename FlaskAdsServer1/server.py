@@ -116,6 +116,10 @@ def update_click_count():
 
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# ----------------------  LOCAL RUN ----------------------
+# if __name__ == '__main__':
+#     app.run(debug=True)
 
+# ---------------------- HANDLER FOR VERCEL (WSGI SIGNATURE) ----------------------
+def handler(environ, start_response):
+    return app.wsgi_app(environ, start_response)
