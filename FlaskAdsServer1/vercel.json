@@ -9,7 +9,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "FlaskAdsServer1.py"
+            "dest": "/FlaskAdsServer1.py"
         }
     ]
 }
